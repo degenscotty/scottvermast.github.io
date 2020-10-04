@@ -13,3 +13,5 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+		
+Actual Github Page: https://scottvermast.github.io/
