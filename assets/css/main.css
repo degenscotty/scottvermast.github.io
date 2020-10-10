@@ -2702,6 +2702,13 @@ input, select, textarea {
 					opacity: 0;
 				}
 
+					body:not(.is-touch) .tiles article:hover > a {
+						-moz-transform: scale(1.3);
+						-webkit-transform: scale(1.3);
+						-ms-transform: scale(1.3);
+						transform: scale(1.3);
+					}
+
 					.tiles article > a .content > :last-child {
 						margin-bottom: 0;
 					}
@@ -2711,7 +2718,7 @@ input, select, textarea {
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7342c4;
+				background-color: #c568c9;
 			}
 
 			.tiles article.style3 > .image:before {
