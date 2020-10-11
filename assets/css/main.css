@@ -225,7 +225,8 @@ input, select, textarea {
 	}
 
 	h6 {
-		font-size: 0.4em;
+		font-size: 1.6em;
+		margin: 0 0 0em 0;
 	}
 
 	@media screen and (max-width: 980px) {
@@ -399,7 +400,7 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-			width: 50%;
+			width: 47.6%;
 		}
 
 		.row > .off-6 {
@@ -1878,6 +1879,11 @@ input, select, textarea {
 		}
 
 	ul {
+		font-weight: 900;
+		line-height: 1.5;
+		margin: 0 0 2em 0;
+		/*text-transform: uppercase;*/
+		letter-spacing: 0.1em;
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
