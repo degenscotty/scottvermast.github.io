@@ -54,36 +54,36 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h2>2D GAME ENGINE</h2>
+							<h2>BEHAVIOUR TREES</h2>
 							<p>
-							During my second year at DAE, I came accross my biggest programming challenge ever.
-							We had to create a fully working 2D game engine starting from a framework our teacher provided.
-							Funny enough, I didn't want to start from that framework and started watching <b><a href="https://www.youtube.com/user/TheChernoProject">The Cherno</b></a> on YouTube.
-							Following his tutorials gave me whole new perspective on how to approach certain problems. To this day I still watch his inspiring videos.<br \>
-							<br \>
-							I had a lot of fun creating my own 2D framework but this is still one of the most challenging assignments I have ever had.<br \>
-							Using my engine I created 2 games to show off what it was capable off.
-							<section>
-									<div class="box alt">
-										<div class="row gtr-uniform">
-											<div class="col-4"><span class="image fit"><img src="images/pengogameplay.gif" alt="" /></span></div>
-											<div class="col-6"><span class="image fit"><img src="images/bubblegameplay.gif" alt="" /></span></div>
-										</div>
-									</div>
-								</section>
-							
-							Pengo (game on the left) is an arcade game published by SEGA in 1982.<br \>
-							Bubble Bobble is a platform arcade game published by Taito in 1986.<br \>
-							<br \>
-							Feel free to check out the source code using the link down below!
+							My first encounter with AI was - I'm not gonna lie - pretty difficult for me. We got a framework in which a little Agent had to survive for as long as he can.
+							But as you can imagine.. The Agent didn't do anything at all by itself. The first thing we had to come up with was a diagram that illustrates the Agent's
+							way of thinking. Using a behaviour tree structure, I came up with a pretty simple implementation containing some selectors and sequences.
 							</p>
+							<span class="image main"><img src="images/diagram.jpg" alt="" /></span>
+							<p>
+							Creating the tree was only the beginning. The implementation was not that easy at all. Not only did the tree need to communicate with the agent from any
+							place possible, it had to do that every frame. Luckily, a not so efficient but rather fast solution was the use of blackboards. We learned about them in class
+							and I was blown away. A container that could store any data that you want, easily retrievable by string keys.<br \>
+							<br \>
+							The moment you see your agent moving around and making decisions by itself was amazing to me. That is why I also chose my graduation work to be about self-learning
+							agents. I must and I will dive deeper into artificial intelligence when I get the chance.
+							</p>
+							<head>
+								 <body>
+									<iframe width="960" height="540" src="https://www.youtube.com/embed/6XsWDaaOGtY" frameborder="0" allowfullscreen></iframe>
+									</iframe>
+								 </body>
+								</head>
+								<br \>
+								<br \>
 							<div class="row">
 									<div class="col-6 col-12-medium">
 										<ul class="actions small">
 											<li><a href="index.html" class="button primary small">BACK</a></li>
-											<li><a href="https://github.com/scottvermast/2DGameEngine" class="button primary small">SOURCE CODE</a></li>
 										</ul>
 									</div>
+
 						</div>
 					</div>
 
